@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    /* so you can make body flexbox*/
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.container{
+    background-color: springgreen;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow:0 0 40px #31ce60;
+    flex-direction: column;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+    overflow: visible;
+}
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 50px 0;
+}
+input{
+    width: 50px;
+    height: 17px;
+}
+a{
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 100px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+a:hover{
+background-color: #eee;
+}
